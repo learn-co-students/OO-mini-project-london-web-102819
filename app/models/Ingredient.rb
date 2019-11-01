@@ -22,7 +22,7 @@ class Ingredient
             end
         end
         mca = iac.max_by{|ingredient, allergen_count| allergen_count}
-        mca[0].name
+        mca[0]
     end
 
 end
